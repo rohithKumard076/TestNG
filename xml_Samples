@@ -1,0 +1,11 @@
+<test name="Test">
+  <groups>
+         <run>
+            <include name = "Sanity"/>
+            <exclude name = "Integration"/>
+         </run>
+      </groups>
+    <classes>
+      <class name="TestPratice.Groups"/>
+    </classes>
+  </test> <!-- Test -->
