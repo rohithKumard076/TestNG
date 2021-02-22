@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPratice.ParallelExecution" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-02-21T11:59:44" hostname="RNIS-PC" time="6.003">
+  <properties/>
+  <testcase name="method1" classname="TestPratice.ParallelExecution" time="3.001"/>
+  <testcase name="method2" classname="TestPratice.ParallelExecution" time="3.0"/>
+  <system-out><![CDATA[Execution of method1
+Execution of method2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

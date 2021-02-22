@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPratice.Groups" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-02-22T03:13:27" hostname="RNIS-PC" time="0.016">
+  <properties/>
+  <testcase name="Method1" classname="TestPratice.Groups" time="0.009"/>
+  <testcase name="Method2" classname="TestPratice.Groups" time="0.0"/>
+  <testcase name="Method3" classname="TestPratice.Groups" time="0.0"/>
+  <testcase name="Method4" classname="TestPratice.Groups" time="0.0"/>
+  <system-out><![CDATA[Smoke test case
+Sanity test case
+Integration test case
+Regression test case
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

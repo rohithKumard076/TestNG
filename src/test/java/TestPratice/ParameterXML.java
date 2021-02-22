@@ -11,6 +11,12 @@ public class ParameterXML {
 	   public void parameterTest(String myName) {
 	      System.out.println("Parameterized value is : " + myName);
 	   }
+	   
+	   @Parameters("myName")
+	   @Test
+	   public void parameterTestLOgout(String myName) {
+	      System.out.println("Parameterized value is LOgout: " + myName);
+	   }
 	
 	   @Test
 	   public void Method1() {

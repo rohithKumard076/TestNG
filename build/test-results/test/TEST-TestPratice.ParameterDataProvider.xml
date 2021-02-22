@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPratice.ParameterDataProvider" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-02-21T11:48:16" hostname="RNIS-PC" time="0.007">
+  <properties/>
+  <testcase name="testUserLogin[0](User1, Password1)" classname="TestPratice.ParameterDataProvider" time="0.001"/>
+  <testcase name="testUserLogin[1](User2, Password2)" classname="TestPratice.ParameterDataProvider" time="0.002"/>
+  <testcase name="testUserLogin[2](User3, Password3)" classname="TestPratice.ParameterDataProvider" time="0.001"/>
+  <testcase name="testUserLogin[3](User4, Password4)" classname="TestPratice.ParameterDataProvider" time="0.001"/>
+  <system-out><![CDATA[User1 Password1
+User2 Password2
+User3 Password3
+User4 Password4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

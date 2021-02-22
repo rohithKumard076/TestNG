@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="DependencyGroup.SmokeTest()[pri:0, instance:TestPratice.DependencyGroup@1e64637b]" name="SmokeTest" class="TestPratice.DependencyGroup"/>
+      </group> <!-- SmokeTest -->
+      <group name="Sanity">
+        <method signature="Groups.Method2()[pri:0, instance:TestPratice.Groups@56bd316]" name="Method2" class="TestPratice.Groups"/>
+        <method signature="Groups.Method3()[pri:0, instance:TestPratice.Groups@56bd316]" name="Method3" class="TestPratice.Groups"/>
+      </group> <!-- Sanity -->
+      <group name="Integration">
+        <method signature="Groups.Method3()[pri:0, instance:TestPratice.Groups@56bd316]" name="Method3" class="TestPratice.Groups"/>
+      </group> <!-- Integration -->
+      <group name="unitTest">
+        <method signature="DependencyGroup.unitTest()[pri:0, instance:TestPratice.DependencyGroup@1e64637b]" name="unitTest" class="TestPratice.DependencyGroup"/>
+      </group> <!-- unitTest -->
+      <group name="Regression">
+        <method signature="Groups.Method1()[pri:0, instance:TestPratice.Groups@56bd316]" name="Method1" class="TestPratice.Groups"/>
+        <method signature="Groups.Method2()[pri:0, instance:TestPratice.Groups@56bd316]" name="Method2" class="TestPratice.Groups"/>
+        <method signature="Groups.Method3()[pri:0, instance:TestPratice.Groups@56bd316]" name="Method3" class="TestPratice.Groups"/>
+        <method signature="Groups.Method4()[pri:0, instance:TestPratice.Groups@56bd316]" name="Method4" class="TestPratice.Groups"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Groups.Method1()[pri:0, instance:TestPratice.Groups@56bd316]" name="Method1" class="TestPratice.Groups"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="36" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+      <class name="TestPratice.TestngAnnotation">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestPratice.TestngAnnotation@4bafae3]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestPratice.TestngAnnotation@4bafae3]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestPratice.TestngAnnotation -->
+      <class name="TestPratice.ParallelExecution">
+        <test-method status="PASS" signature="StartExecution()[pri:0, instance:TestPratice.ParallelExecution@19adbf6c]" name="StartExecution" is-config="true" duration-ms="5" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartExecution -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestPratice.TestngAnnotation@4bafae3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="EndExecution()[pri:0, instance:TestPratice.ParallelExecution@19adbf6c]" name="EndExecution" is-config="true" duration-ms="0" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndExecution -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestPratice.TestngAnnotation@4bafae3]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPratice.ParallelExecution -->
+      <class name="TestPratice.Demo1">
+        <test-method status="PASS" signature="method1()[pri:0, instance:TestPratice.Demo1@45ccfbb7]" name="method1" duration-ms="0" started-at="2021-02-20T13:46:41Z" finished-at="2021-02-20T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- TestPratice.Demo1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,5 +1,6 @@
 package TestPratice;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DependencyGroup {
@@ -11,6 +12,7 @@ public class DependencyGroup {
 	
 	@Test(groups = { "unitTest" })
 	public void unitTest() {
+		//Assert.fail();
 		System.out.println("Unit Test Execution");
 	}
 	

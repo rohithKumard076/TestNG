@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPratice.Dependency">
+      <class name="TestPratice.ParameterXML">
         <methods>
-          <include name="Execution"/>
-          <include name="initializationMethod"/>
+          <include name="parameterTestLOgout"/>
+          <include name="parameterTest"/>
         </methods>
-      </class> <!-- TestPratice.Dependency -->
+      </class> <!-- TestPratice.ParameterXML -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

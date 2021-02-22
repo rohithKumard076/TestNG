@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPratice.DependencyGroup" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-21T11:48:10" hostname="RNIS-PC" time="6.127">
+  <properties/>
+  <testcase name="SmokeTest" classname="TestPratice.DependencyGroup" time="0.001"/>
+  <testcase name="unitTest" classname="TestPratice.DependencyGroup" time="0.0"/>
+  <testcase name="RegressionTest" classname="TestPratice.DependencyGroup" time="0.001"/>
+  <system-out><![CDATA[Smoke Test Execution
+Unit Test Execution
+Regression Test Execution
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

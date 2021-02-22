@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPratice.TestngAnnotation" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-02-21T11:48:16" hostname="RNIS-PC" time="0.002">
+  <properties/>
+  <testcase name="testCase1" classname="TestPratice.TestngAnnotation" time="0.001"/>
+  <testcase name="testCase2" classname="TestPratice.TestngAnnotation" time="0.0"/>
+  <system-out><![CDATA[in test case 1
+in test case 2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

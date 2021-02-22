@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6101" started-at="2021-02-18T12:27:09Z" finished-at="2021-02-18T12:27:15Z">
+  <suite name="Default suite" duration-ms="48" started-at="2021-02-22T08:08:07Z" finished-at="2021-02-22T08:08:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6101" started-at="2021-02-18T12:27:09Z" finished-at="2021-02-18T12:27:15Z">
-      <class name="TestPratice.ParallelExecution">
-        <test-method status="PASS" signature="StartExecution()[pri:0, instance:TestPratice.ParallelExecution@6d00a15d]" name="StartExecution" is-config="true" duration-ms="47" started-at="2021-02-18T12:27:09Z" finished-at="2021-02-18T12:27:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StartExecution -->
-        <test-method status="PASS" signature="method1()[pri:0, instance:TestPratice.ParallelExecution@6d00a15d]" name="method1" duration-ms="3010" started-at="2021-02-18T12:27:09Z" finished-at="2021-02-18T12:27:12Z">
+    <test name="Default test" duration-ms="48" started-at="2021-02-22T08:08:07Z" finished-at="2021-02-22T08:08:07Z">
+      <class name="TestPratice.Demo1">
+        <test-method status="PASS" signature="method1()[pri:0, instance:TestPratice.Demo1@1810399e]" name="method1" duration-ms="12" started-at="2021-02-22T08:08:07Z" finished-at="2021-02-22T08:08:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:TestPratice.ParallelExecution@6d00a15d]" name="method2" duration-ms="3002" started-at="2021-02-18T12:27:12Z" finished-at="2021-02-18T12:27:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="EndExecution()[pri:0, instance:TestPratice.ParallelExecution@6d00a15d]" name="EndExecution" is-config="true" duration-ms="1" started-at="2021-02-18T12:27:15Z" finished-at="2021-02-18T12:27:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EndExecution -->
-      </class> <!-- TestPratice.ParallelExecution -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- TestPratice.Demo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
